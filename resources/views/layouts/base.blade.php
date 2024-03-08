@@ -25,6 +25,9 @@
     </head>
 
     <body>
+        @auth
+            @livewire('layout.navigation')
+        @endauth
         @yield('body')
     </body>
 </html>
