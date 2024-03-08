@@ -95,7 +95,7 @@
         datePickerValue = datePickerFormatDate( currentDate );
         datePickerCalculateDays();
     " x-cloak>
-    <div class="container px-4 py-2 mx-auto md:py-10">
+    <div class="container">
         <div class="w-full mb-5">
             <label for="datepicker" class="block mb-1 text-sm font-medium text-neutral-500">Select Date</label>
             <div class="relative w-[17rem]">

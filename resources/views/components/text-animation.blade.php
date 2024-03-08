@@ -34,7 +34,7 @@ x-init="
         }
     }, 5);
 "
-class="invisible block text-3xl font-bold custom-font"
+{{ $attributes -> merge(['class' => "invisible block text-3xl font-bold custom-font"]) }}
 >
 {{ $slot }}
 </h1>
